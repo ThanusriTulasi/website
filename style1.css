@@ -9,8 +9,10 @@ a{
     font-size: 30px;
     margin-top:-2%;
     padding:40px;
+    /* width:30%; */
 }
 hr{
+    margin-left:2%;
     height:25px;
     margin-top:-2%;
 }
@@ -178,4 +180,10 @@ hr{
     margin-left:55%;
     margin-top:2%;
     border-radius: 25px;
+}
+.sign{
+    margin-left:5%;
+}
+.lll{
+    margin-right:4%;
 }
