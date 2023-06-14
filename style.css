@@ -1,0 +1,246 @@
+.continents {
+    background-image: url("https://i.pinimg.com/originals/61/ba/c1/61bac18c3e23e155bb5f2a4c0ebb15c6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+.North{
+    position:absolute;
+    margin-top:8%;
+    margin-left:1%;
+    color:black;
+}
+.South{
+    position:absolute;
+    margin-top:25%;
+    margin-left:11%;
+    color:black;
+}
+.Africa{
+    position:absolute;
+    margin-top:23%;
+    margin-left:42%;
+    color:black;
+}
+.Europe{
+    position:absolute;
+    margin-top:11%;
+    margin-left:37%;
+    color:black;
+}
+.Asia{
+    position:absolute;
+    margin-top:6%;
+    margin-left:69%;
+    position:black;
+}
+.Australia{
+    position:absolute;
+    margin-top:28.5%;
+    margin-left:71%;
+    color:black;
+}
+.Antartica{
+    position:absolute;
+    margin-top:40%;
+    margin-left:54%;
+    position:black;
+}
+.text{
+    position:absolute;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    margin-top:15%;
+    margin-left:5%;
+}
+#click{
+    font-size:30px;
+    font-family: 'Times New Roman';
+    color:black;
+    margin-top:21%;
+    margin-left:40%;
+    position:absolute;
+}
+a{
+    color: black;
+}
+.pic{
+    background: url("https://cdn.wallpapersafari.com/44/52/teVspd.jpg");
+    background-repeat: no-repeat;
+    height:620px;
+    width:1350px;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.pic:hover{
+    background: url("https://wallpaperaccess.com/full/407993.jpg");
+    background-repeat: no-repeat;
+    height:620px;
+    width:1350px;
+    background-attachment: fixed;
+    background-size:cover;
+    animation:movepic 10s infinite; 
+}
+ @keyframes movepic{
+    0%{
+        background: url("https://wallpaperaccess.com/full/407993.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    25%{
+        background: url("https://wallpaperaccess.com/full/444333.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    50%{
+        background: url("https://www.ampagency.com/hs-fs/hubfs/flash/hero-images/desktop--2x/travel_hero-2x.jpg?width=11520&height=6480&name=travel_hero-2x.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    70%{
+        background: url("https://wallpapertag.com/wallpaper/full/5/e/f/141498-popular-travel-background-2560x1414.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    100%{
+        background: url("https://wallpapertag.com/wallpaper/full/5/c/2/141471-gorgerous-travel-background-2560x1440-for-4k.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+}
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.column{
+    transition: 0.3s;
+}
+.column:hover
+{
+    scale:1.1;
+}
+.all{
+    border: 6px solid white;
+    padding: 10px;
+    width: 1100px;
+    margin:auto;
+    margin-top:9%;
+    margin-bottom:-10%;
+}
+.all1{
+    border: 6px solid black;
+    padding: 10px;
+    margin:auto;
+    width: 1100px;
+    margin-top:15%;
+}
+.image{
+    position:absolute;
+    margin-right:30%;
+    height:-90%;
+    width:-90%;
+    
+}
+.p{
+    position:absolute;
+    margin-right: 0%;
+    margin-left:60%;
+}
+body *{
+font-family: 'Roboto Slab', serif;
+}
+.t{
+    
+    height:500px;
+    width:100%;
+}
+.in{
+    font-size: 27px;
+    color:white;
+    margin-top: -23%;
+    margin-left: 26%;
+}
+.lin{
+    margin-top:16%;
+    font-family:Cambria;
+    font-size: 20px;
+}
+.taj{
+    height:300px;
+    width:600px;
+    border:2px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-left:5%;
+}
+.taj2{
+    margin-top:17%;
+    margin-left:10%;
+}
+.taj1{
+    height:250px;
+    width:500px;
+    border:2px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-left:5%;
+}
+.r{
+    border:5px solid black;
+    background-color: white;
+    height:600px;
+    width:500px;
+    border-radius: 25px 25px 25px 25px;
+    position:fixed;
+    margin-left:61%;
+    margin-top:-3%;
+}
+.ant{
+    border:5px solid transparent;
+    height:100%;
+    width:60%;
+}
+.o{
+    height:40px;
+    width:100%;
+}
+.hi{
+    margin-left:2%;
+}
+.ho{
+    margin-top:-3%;
+  margin-left:60%;
+}
+.hoo{
+    margin-top:-3.1%;
+   margin-left:69%;
+}
+.hoooo{
+    margin-top:-3.1%;
+    margin-left:82%
+}
+.cent{
+    height:fit-content;
+    width:1000px;
+    border:2px solid transparent;
+    padding:5px;
+    margin:auto;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+}
